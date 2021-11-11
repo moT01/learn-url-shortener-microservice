@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": {
     "title": "URL Shortener Microservice",
     "description": "> Welcome to the URL Shortener Microservice certification project!"
@@ -11,7 +11,7 @@
         "./.freeCodeCamp/reset.sh"
       ],
       "commits": [
-        "94bd21affcf1e809954dba846659005370e78050"
+        "7c8b38bd9d256d893b563ce3ae8d9e84ac456bc3"
       ]
     },
     "testRunner": {
@@ -23,7 +23,7 @@
     },
     "repo": {
       "uri": "https://github.com/moT01/learn-url-shortener-microservice",
-      "branch": "v0.0.1"
+      "branch": "v0.0.2"
     },
     "reset": {
       "commands": [
@@ -48,11 +48,11 @@
           "id": "1.1",
           "content": "Complete the tasks below",
           "subtasks": [
-            "A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds"
+            "You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`"
           ],
           "setup": {
             "commits": [
-              "28a69b9033313ef5c83330706ff12860c9da6540"
+              "ce05be07d036f7a9327d571c5f54775b47c31316"
             ]
           }
         }
